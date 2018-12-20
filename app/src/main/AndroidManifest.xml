@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mbb.gk.mbbmobile">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/mbb"
+        android:screenOrientation="nosensor"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BaskanActivity"
+            android:label="@string/title_activity_baskan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EczanePackage.EczaneActivity" />
+        <activity android:name=".IlceBelPackage.IlceBelActivity" />
+        <activity android:name=".HaberPackage.HaberActivity" />
+        <activity android:name=".HaberPackage.HaberDetayActivity" />
+        <activity android:name=".OtobusPackage.OtobusActivity" />
+        <activity android:name=".OtobusPackage.OtobusDetayActivity" />
+        <activity android:name=".Iletisim.IletisimActivity" />
+        <activity android:name=".Iletisim.TelRehberActivity" />
+        <activity android:name=".ProjePackage.ProjeActivity" />
+        <activity android:name=".VRActivity"></activity>
+    </application>
+
+</manifest>

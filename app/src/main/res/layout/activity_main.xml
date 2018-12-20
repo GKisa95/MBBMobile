@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:backgroundTint="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/mbb"
+        app:srcCompat="@drawable/mbb" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/colorWhite">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/buttonBaskan"
+                android:layout_width="140dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/baskan"
+                android:textSize="20sp"
+                android:backgroundTint="@color/colorMBB"
+                android:textColor="@color/colorWhite"/>
+
+            <Button
+                android:id="@+id/buttonIlceBel"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="@string/ilce_bel"
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorMBB"
+                android:textColor="@color/colorWhite"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/buttonHaber"
+                android:layout_width="140dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/haber"
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorMBB"
+                android:textColor="@color/colorWhite"/>
+
+            <Button
+                android:id="@+id/buttonProje"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="@string/projeler"
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorMBB"
+                android:textColor="@color/colorWhite"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonNobEczane"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/nobetci_eczane"
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorMBB"
+                android:textColor="@color/colorWhite"/>
+
+            <Button
+                android:id="@+id/buttonBusSefer"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="@string/bus_sefer"
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorMBB"
+                android:textColor="@color/colorWhite"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonVR"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/vr_mersin"
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorMBB"
+                android:textColor="@color/colorWhite"/>
+
+            <Button
+                android:id="@+id/buttonIletisim"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="@string/iletisim"
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorMBB"
+                android:textColor="@color/colorWhite"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

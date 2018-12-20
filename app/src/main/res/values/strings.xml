@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MBB Mobile</string>
+    <string name="mbb">Mersin Büyükşehir Belediyesi</string>
+
+    <string name="baskan">Başkan</string>
+    <string name="title_activity_baskan"></string>
+    <string name="baskan_isim">Burhanettin KOCAMAZ</string>
+    <string name="baskan_website">http://www.burhanettinkocamaz.com.tr/</string>
+
+    <string name="haber">HABERLER</string>
+
+    <string name="nobetci_eczane">NÖBETÇİ ECZANELER</string>
+
+    <string name="bus_sefer">OTOBÜS SEFERLERİ</string>
+    <string name="hat_img">Hat Görseli</string>
+
+    <string name="ilce_bel">İLÇE BELEDİYELERİ</string>
+
+    <string name="iletisim">İLETİŞİM</string>
+    <string name="bel_adres">Çankaya Mahallesi, Atatürk Caddesi No:19 MERSİN</string>
+    <string name="bel_tel">0 324 231 88 80 (10 hat)
+        0324 533 3001 - 3002(Merkez Santral)</string>
+    <string name="bel_eposta">info@mersin.bel.tr</string>
+    <string name="bel_tel_rehber">BELEDİYE TELEFON REHBERİ</string>
+    <string name="per_name">Adı Soyadı</string>
+    <string name="per_phone">Telefon No</string>
+    <string name="per_email">E-mail</string>
+    <string name="per_dept">Birim</string>
+    <string name="per_job">Görev</string>
+    <string name="per_dphone">Birim Telefon</string>
+    <string name="per_dmail">Birim Email</string>
+    <string name="per_conn">Bağlı Olduğu Yer</string>
+    <string name="ara">Ara</string>
+
+    <string name="facebook_link">https://www.facebook.com/MersinBuyuksehirBelediyesi/</string>
+    <string name="twitter_link">https://twitter.com/mersin_bld</string>
+    <string name="youtube_link">https://www.youtube.com/mersinwebtv</string>
+    <string name="instagram_link">https://www.instagram.com/mersinbuyuksehirbelediyesi/</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="youtube">YOUTUBE</string>
+    <string name="instagram">INSTAGRAM</string>
+    <string name="projeler">PROJELER</string>
+    <string name="vr_mersin">VR MERSİN</string>
+</resources>
